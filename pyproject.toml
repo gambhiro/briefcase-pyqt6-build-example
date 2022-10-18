@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "smallapp"
 version = "0.1.0"
-description = ""
+description = "Small PyQt6 app to test Briefcase build"
 authors = ["Gambhiro <gambhiro@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
@@ -21,6 +21,7 @@ MarkupSafe = "~2.1.1"
 Mako = "~1.1.6"
 Flask = "~2.2.2"
 Flask-Cors = "~3.0.10"
+importlib-metadata = "~4.4"
 
 [tool.poetry.scripts]
 smallapp = 'smallapp.runner:main'
@@ -46,7 +47,7 @@ author_email = "gambhiro@users.noreply.github.com"
 
 [tool.briefcase.app.smallapp]
 formal_name = "Small App"
-description = ""
+description = "Small PyQt6 app to test Briefcase build"
 icon = "smallapp/assets/icons/appicons/smallapp"
 sources = ['smallapp']
 
@@ -59,6 +60,7 @@ requires = [
 "Mako               >= 1.1.6,    < 1.2.0",
 "Flask              >= 2.2.2,    < 2.3.0",
 "Flask-Cors         >= 3.0.10,   < 3.1.0",
+"importlib-metadata >= 4.4.0,    < 4.5.0",
 ]
 
 [tool.briefcase.app.smallapp.macOS]
