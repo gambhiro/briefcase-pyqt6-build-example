@@ -1,0 +1,1 @@
+# briefcase-pyqt6-build-example
