@@ -1,1 +1,1 @@
-# Briefcase PyQt6 build example
+# PyQt6 build example
